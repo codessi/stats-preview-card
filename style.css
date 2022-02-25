@@ -52,7 +52,7 @@ ul{
   /* padding: 1rem; */
   /* border: dotted; */
   min-height: 30em;
-  max-width: 80vw;
+  max-width: 90vw;
   border-radius: .5rem;
   overflow: hidden;
   
@@ -123,13 +123,13 @@ ul li {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 841px) {
   *{
     /* border: dotted; */
 
   }
   body{
-    padding: 4rem;
+    /* padding: 4rem; */
     
   }
   .picture{
@@ -141,15 +141,20 @@ ul li {
     flex-direction: row-reverse;
     justify-content: start;
     height: 60vh;
+    /* border: yellow solid; */
     /* align-items: center; */
   }
   .main {
-    padding: 3rem;
+   padding: 1.5rem;
+  }
+  .main h1{
+    margin-top: 0;
   }
 
   .main h1, .main p{
     text-align: left;
   }
+
 
   ul{
     display: flex;
@@ -161,10 +166,21 @@ ul li {
     margin-right: 2rem;
   }
 
+  ul li span{
+    text-align: left;
+  }
+
   .main{
     height: 100%;
     width: 50%;
   }
 
+
+}
+
+@media screen and (min-width: 1005px) {
+  .main{
+    padding: 3rem;
+  }
 
 }
